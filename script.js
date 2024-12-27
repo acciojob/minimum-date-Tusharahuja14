@@ -12,10 +12,9 @@ function minDate(dates) {
 						mini=curr;
 						break;
 					}
-					else if(curr[j]>mini[j]){
-						break;
+					else {
+						j++;
 					}
-					j++;
 				}
 		}
 	return mini;
